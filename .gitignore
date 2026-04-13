@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IPSW firmware files (too large, download separately)
+*.ipsw
+
+# Build artifacts and third-party sources
+tools/deps/
+tools/libplist/
+tools/libimobiledevice-glue/
+tools/libusbmuxd/
+tools/libimobiledevice/
+tools/libirecovery/
+tools/libtatsu/
+tools/idevicerestore/
+tools/ideviceinstaller/
+tools/ifuse/
+tools/libideviceactivation/
+tools/*_build.log
+tools/*_configure.log
+tools/*_install.log
+
+# Restore logs (contain device serial, ECID, nonces)
+tools/restore_*.log
+
+# Original build scripts (contain local paths)
+tools/limd-build-macos.sh

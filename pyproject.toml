@@ -1,0 +1,9 @@
+[project]
+name = "iphone-repair"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pymobiledevice3>=9.9.1",
+]
